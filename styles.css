@@ -1,0 +1,6 @@
+@import url();
+
+.container {
+    display: flex;
+    justify-content: center;
+}
