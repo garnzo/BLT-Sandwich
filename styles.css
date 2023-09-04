@@ -1,6 +1,33 @@
-@import url();
+@import url("https://www.dafont.com/roman-font-7.font");
 
 .container {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
+    gap: 50px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    font-family: roman ;
+    background: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.collum1 {
+    text-align: center;
+}
+
+.collum2 {
+    text-align: center;
+}
+
+.collum3 {
+    text-align: center;
 }
