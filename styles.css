@@ -1,10 +1,12 @@
-@import url("https://www.dafont.com/roman-font-7.font");
 
 .container {
-    margin-top: 100px;
+    margin-top: 450px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 75px;
+    scale: 1.25;
+    border-radius: 25px;
+    border: 1px solid black;
 }
 
 header {
@@ -13,7 +15,7 @@ header {
 
 body {
     text-align: center;
-    font-family: roman ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background: url("background.jpg");
     background-position: center;
     background-size: cover;
@@ -30,4 +32,9 @@ body {
 
 .collum3 {
     text-align: center;
+}
+
+.h1 {
+    scale: 1.5;
+    margin-top: 100px;
 }
