@@ -1,3 +1,4 @@
+  @import url('https://fonts.googleapis.com/css2?family=Romanesco&display=swap');
 
 .container {
     margin-top: 450px;
@@ -5,8 +6,6 @@
     justify-content: center;
     gap: 75px;
     scale: 1.25;
-    border-radius: 25px;
-    border: 1px solid black;
 }
 
 header {
@@ -15,11 +14,16 @@ header {
 
 body {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Romanesco', cursive;
     background: url("background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.collum1 img {
+    border-radius: 25px;
+    border: 5px solid black;
 }
 
 .collum1 {
@@ -35,6 +39,12 @@ body {
 }
 
 .h1 {
-    scale: 1.5;
+    scale: 2;
     margin-top: 100px;
+}
+
+.collums:hover {
+    transform: scale(1.1);
+    transform: 0.5s;
+    cursor: pointer;
 }
