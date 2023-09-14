@@ -12,10 +12,24 @@ header {
     text-align: center;
 }
 
-body {
+.body1 {
     text-align: center;
     font-family: 'Romanesco', cursive;
     background: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body2 {
+    background: url("");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.body3 {
+    background: url("");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,13 +61,6 @@ body {
     transform: scale(1.1);
     transform: 0.5s;
     cursor: pointer;
-}
-
-.body2 {
-    background: url("");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .title1 {
